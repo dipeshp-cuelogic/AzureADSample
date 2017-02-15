@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head >
+    <title>Sample SPA (Angular 1.5) and Azure AD</title>
+	<meta charset="utf-8" />
+</head>
+<body ng-app="app" ng-controller="sampleController">
+    <button ng-click="login()" ng-hide="userInfo.isAuthenticated">
+        Login
+    </button>
+    <button ng-click="logout()" ng-show="userInfo.isAuthenticated">
+        Logout
+    </button>
+
+    <button ng-click="onlyAdmin()">
+        Admin
+    </button>
+
+    {{admin}}
+
+
+    <button ng-click="callAPI()">
+        Get Values
+    </button>
+
+    Values : {{values}}<br />
+
+    <pre>
+        {{userInfo}}
+    </pre>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://secure.aadcdn.microsoftonline-p.com/lib/1.0.13/js/adal.min.js"></script>
+    <script src="https://secure.aadcdn.microsoftonline-p.com/lib/1.0.13/js/adal-angular.min.js"></script>
+    <script src="Scripts/app.js"></script>
+
+</body>
+</html>

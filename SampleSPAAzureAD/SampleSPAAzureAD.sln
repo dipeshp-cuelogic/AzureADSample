@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleSPAAzureAD", "SampleSPAAzureAD\SampleSPAAzureAD.csproj", "{82CB1AC7-5587-4C75-BEAA-B6D30B334FD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleSPAAzureAD.API", "SampleSPAAzureAD.API\SampleSPAAzureAD.API.csproj", "{B56414F4-692B-419E-A56B-63CDCA39043D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82CB1AC7-5587-4C75-BEAA-B6D30B334FD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82CB1AC7-5587-4C75-BEAA-B6D30B334FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82CB1AC7-5587-4C75-BEAA-B6D30B334FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82CB1AC7-5587-4C75-BEAA-B6D30B334FD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B56414F4-692B-419E-A56B-63CDCA39043D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B56414F4-692B-419E-A56B-63CDCA39043D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B56414F4-692B-419E-A56B-63CDCA39043D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B56414F4-692B-419E-A56B-63CDCA39043D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
